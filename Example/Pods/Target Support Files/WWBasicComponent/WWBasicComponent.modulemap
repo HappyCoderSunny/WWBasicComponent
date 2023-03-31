@@ -1,0 +1,6 @@
+framework module WWBasicComponent {
+  umbrella header "WWBasicComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

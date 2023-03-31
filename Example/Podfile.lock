@@ -1,0 +1,16 @@
+PODS:
+  - WWBasicComponent (0.1.0)
+
+DEPENDENCIES:
+  - WWBasicComponent (from `../`)
+
+EXTERNAL SOURCES:
+  WWBasicComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWBasicComponent: 7bb51f837f80cd3c3cff3eccffcb850b85a2f14f
+
+PODFILE CHECKSUM: 337ed107ba8c2a487b23dac27ff4cc95d5d30edd
+
+COCOAPODS: 1.9.3
