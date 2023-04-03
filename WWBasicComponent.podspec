@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WWBasicComponent'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of WWBasicComponent.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'WWBasicComponent/Classes/**/*'
-  s.resources = "WWBasicComponent/Assets/*.xcassets"
+#  s.resources = "WWBasicComponent/Assets/*.xcassets"
   
   # s.resource_bundles = {
   #   'WWBasicComponent' => ['WWBasicComponent/Assets/*.png']
