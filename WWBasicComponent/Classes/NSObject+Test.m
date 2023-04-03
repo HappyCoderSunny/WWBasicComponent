@@ -10,7 +10,7 @@
 @implementation NSObject (Test)
 
 - (void)componentTestMethod {
-    NSLog(@"这是一个组件的车是方法.");
+    NSLog(@"这是一个组件的测试方法.");
 }
 
 @end
