@@ -7,8 +7,11 @@
 //
 
 #import "WWViewController.h"
+#import <WWBasicComponent/NSObject+Test.h>
 
 @interface WWViewController ()
+
+@property(nonatomic, strong) UIImageView *imageView;
 
 @end
 
@@ -17,13 +20,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSObject *objc = [[NSObject alloc] init];
+    [objc componentTestMethod];
+    
+    self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 200, 60, 60)];
+    self.imageView.backgroundColor = [UIColor redColor];
+    self.imageView.image = [UIImage imageNamed:@"ww_basic_gift"];
+    [self.view addSubview:self.imageView];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
 
 @end
