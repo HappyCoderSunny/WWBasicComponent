@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'WWBasicComponent/Classes/**/*'
+  s.resources = "WWBasicComponent/Assets/*.xcassets"
   
   # s.resource_bundles = {
   #   'WWBasicComponent' => ['WWBasicComponent/Assets/*.png']
